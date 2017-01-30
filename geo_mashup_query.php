@@ -1,4 +1,4 @@
-
+<?php
 // Resume search form
 <form id="search-by-zip-code" method="post">
 	<input type="text" name="search_zip" />
