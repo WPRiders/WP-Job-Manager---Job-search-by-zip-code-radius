@@ -1,5 +1,5 @@
-<?php
-// Resume search form
+
+<!-- Resume search form -->
 <form id="search-by-zip-code" method="post">
 	<input type="text" name="search_zip" />
 	<input type="text" name="search_radius" />
@@ -7,7 +7,7 @@
 </form>
 
 
-
+<?php
 add_filter( 'job_manager_get_listings', 'search_jobs_by_zip_code_radius', 99, 2 );
 /**
  * Add filter params for job search by radius
